@@ -10,7 +10,9 @@ int main() {
 	cout << "output in double type:" << static_cast<double>(testUnint) << endl;
 	cout << "output in double type:" << setprecision(4) << static_cast<double>(testUnint) << endl;
 	cout << "output in Hex unsigned int type:" << hex << testUnint << endl; //16进制输出
-	
+	cout << "以八进制输出" << oct << testUnint << endl;
+	float a = 1.1;
+	cout << int(a);
 	system("pause");
 	return 0;
 }
